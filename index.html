@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header class="header">
+  <div class="logo">
+    <!-- Логотип через ссылку -->
+    <img href="index.html" src="logo.webp" alt="Логотип" class="logo-img" >
+    <h1>Webify</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Главная</a></li>
+      <li><a href="about.html">О нас</a></li>
+      <li><a href="services.html">Услуги</a></li>
+      <li><a href="shablons.html">Шаблоны</a></li>
+      <li><a href="contact.html">Контакты</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main class="container">
+
+<!-- Герой -->
+<section class="hero">
+  <h2 class="hero-title">Добро пожаловать, на Webify</h2>
+  <div class="typed-text">
+    <span id="element"></span>
+  </div>
+  <p>Создаём современные сайты и цифровые решения для бизнеса и личных проектов.</p>
+  <a href="services.html" class="btn">Наши услуги</a>
+</section>
+
+<!-- Подключаем библиотеку -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Скрипт анимации -->
+<script>
+//   var typed = new Typed('#element', {
+//     strings: ['Мы создаём сайты.', 'Мы делаем дизайн.', 'Мы продвигаем бизнес.'],
+//     typeSpeed: 50,
+//     backSpeed: 25,
+//     loop: true
+//   });
+// </script>
+    <!-- Преимущества -->
+    <section class="advantages">
+      <h2>Почему выбирают нас?</h2>
+      <div class="adv-cards">
+  <div class="adv-card">
+    <i class="fas fa-bolt adv-icon"></i>
+    <h3>Быстрая разработка</h3>
+    <p>Мы экономим ваше время, создавая сайты в кратчайшие сроки.</p>
+  </div>
+  <div class="adv-card">
+    <i class="fas fa-paint-brush adv-icon"></i>
+    <h3>Современный дизайн</h3>
+    <p>Каждый проект уникален и адаптирован под ваш бизнес.</p>
+  </div>
+  <div class="adv-card">
+    <i class="fas fa-headset adv-icon"></i>
+    <h3>Поддержка</h3>
+    <p>Мы сопровождаем проекты и после их запуска.</p>
+  </div>
+</div>
+
+    </section>
+<!-- Наши проекты -->
+<section class="projects">
+  <h2>Наши проекты</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=600&q=80" alt="SkillStep проект" class="project-img">
+      <h3>SkillStep</h3>
+      <p>Образовательная платформа с современным дизайном и удобной навигацией.</p>
+      <a href="https://skillstep.netlify.app/" target="_blank" class="btn">Перейти</a>
+    </div>
+
+<div class="project-card">
+  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80" 
+     alt="Classic Men" class="project-img">
+  <h3 class="project-title">Classic Men</h3>
+  <p class="project-desc">
+    Современный веб-сайт для барбершопа Classic Men с акцентом на стиль, адаптивный дизайн и удобство для клиентов.
+  </p>
+  <a href="https://classicmen.netlify.app/" target="_blank" class="btn">Перейти</a>
+</div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80" alt="Приложение" class="project-img">
+      <h3>Проект 3</h3>
+      <p>Мобильное приложение с минималистичным интерфейсом и высокой юзабилити.</p>
+      <a href="#" class="btn">Перейти</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CTA -->
+    <section class="cta">
+      <h2>Готовы к сотрудничеству?</h2>
+      <p>Свяжитесь с нами и получите бесплатную консультацию.</p>
+      <a href="contact.html" class="btn">Связаться</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Webify. Все права защищены.</p>
+  </footer>
+</body>
+</html>
